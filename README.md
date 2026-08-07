@@ -1,5 +1,7 @@
 # 🫁 LungVision: Clinical AI Trustworthiness & Interpretability Audit
 
+**Live App:** [https://nitink-22-lungvision-ai-app-khqs1e.streamlit.app/](https://nitink-22-lungvision-ai-app-khqs1e.streamlit.app/)
+
 LungVision is a Streamlit-based web application designed to audit the trustworthiness and interpretability of a lung cancer detection model. It utilizes Explainable AI (XAI) techniques, specifically Grad-CAM, to visualize the regions of a biopsy slide that influence the model's predictions. 
 
 The tool includes a **Clinical Noise Simulator** to apply H&E stain shift severities, mimicking different hospital staining protocols. By comparing the baseline model reasoning against stressed reasoning (with simulated clinical variance), researchers and clinicians can identify potential "shortcut learning"—where the model overfits to color variances rather than relying on underlying biological morphology.
